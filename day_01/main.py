@@ -1,230 +1,230 @@
-# a simple print statement
+# # a simple print statement
 
-# print("hello world")
+# # print("hello world")
 
-# 1. String Concatenation, A string is text enclosed in quotes.
+# # 1. String Concatenation, A string is text enclosed in quotes.
 
-# first_name = "Jack"
-# last_name = "Smith"
+# # first_name = "Jack"
+# # last_name = "Smith"
 
-# full_name = first_name + " " + last_name
+# # full_name = first_name + " " + last_name
 
-# print(full_name)
+# # print(full_name)
 
-# N.B you cannot concatenat a string with an integer, to do so you must convert the interger into a string
+# # N.B you cannot concatenat a string with an integer, to do so you must convert the interger into a string
 
-# age = 25
+# # age = 25
 
-# print("I am" + " " + str(age))
+# # print("I am" + " " + str(age))
 
-# 2. Length = getting string length 
+# # 2. Length = getting string length 
 
-# name = "Jacobs"
+# # name = "Jacobs"
 
-# print(len(name))
+# # print(len(name))
 
-# (spaces counts as characters too)
+# # (spaces counts as characters too)
 
-# message = "Hello World"
+# # message = "Hello World"
 
-# print(len(message))
+# # print(len(message))
 
-# You might use len() to validate user input
+# # You might use len() to validate user input
 
-# password = "python123"
+# # password = "python123"
 
-# if len(password) >= 8:
-#     print("password is long enough")
+# # if len(password) >= 8:
+# #     print("password is long enough")
 
 
-# 3. .lower() = converting every letter in a string to lowercase
+# # 3. .lower() = converting every letter in a string to lowercase
 
-# name = "RAYMOND"
+# # name = "RAYMOND"
 
-# print(name.lower())
+# # print(name.lower())
 
 
-# practical example is handling user input
+# # practical example is handling user input
 
-# answer = input("Do you want to continue?: ")
+# # answer = input("Do you want to continue?: ")
 
-# if answer.lower() == "yes":
-#     print("continuing...")
-# else:
-#     print("stopping")
+# # if answer.lower() == "yes":
+# #     print("continuing...")
+# # else:
+# #     print("stopping")
 
 
-# 4. .replace = replaces part of a string with something else
+# # 4. .replace = replaces part of a string with something else
 
-# message = "I love Python"
+# # message = "I love Python"
 
-# new_message = message.replace("Python", "AWS")
-# print(new_message)
+# # new_message = message.replace("Python", "AWS")
+# # print(new_message)
 
-# # You can also replace individual characters
+# # # You can also replace individual characters
 
-# phone = "123-456-789"
+# # phone = "123-456-789"
 
-# phone = phone.replace("-", " ")
+# # phone = phone.replace("-", " ")
 
-# print(phone)
+# # print(phone)
 
-# 5. .split = takes one string and turns it into a list of smaller strings
+# # 5. .split = takes one string and turns it into a list of smaller strings
 
-# sentence = "Python is powerful"
+# # sentence = "Python is powerful"
 
-# words = sentence.split()
+# # words = sentence.split()
 
-# print(words)
+# # print(words)
 
-# you can specify what to split on
+# # you can specify what to split on
 
-# data = "Python,Linux,AWS,Docker"
+# # data = "Python,Linux,AWS,Docker"
 
-# skills = data.split(",")
+# # skills = data.split(",")
 
-# print(skills)
+# # print(skills)
 
 
-# 6. .strip = removes whitespace from the beginning and end of a string
+# # 6. .strip = removes whitespace from the beginning and end of a string
 
-# name = "    Joseph   "
+# # name = "    Joseph   "
 
-# print(name.strip())
+# # print(name.strip())
 
 
-# username = input("Enter you name: ")
+# # username = input("Enter you name: ")
 
-# print(username.strip())
+# # print(username.strip())
 
-# N.B strip() does not remove spaces in the middle
+# # N.B strip() does not remove spaces in the middle
 
-# name = "Eli zaberth"
+# # name = "Eli zaberth"
 
-# print(name.strip())
+# # print(name.strip())
 
 
-# 7. Substrings = a smaller portion of a string
+# # 7. Substrings = a smaller portion of a string
 
-# language = "Python"
+# # language = "Python"
 
-# print(language[0:3]) # end index is not inclusive
+# # print(language[0:3]) # end index is not inclusive
 
 
-# 8. Integers = int is a whole number
+# # 8. Integers = int is a whole number
 
-# age = 25
-# quantity = 10
-# temperature = -5
+# # age = 25
+# # quantity = 10
+# # temperature = -5
 
-# you can perform mathematical operations
+# # you can perform mathematical operations
 
-# a = 10
-# b = 3
+# # a = 10
+# # b = 3
 
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
+# # print(a + b)
+# # print(a - b)
+# # print(a * b)
+# # print(a / b)
 
-# you can also explicitly convert something to an integer
+# # you can also explicitly convert something to an integer
 
-# age = "25"
+# # age = "25"
 
-# age = int(age)
+# # age = int(age)
 
-# print(age)
+# # print(age)
 
-# user input example
+# # user input example
 
-# age = int(input("How old are you?: "))
+# # age = int(input("How old are you?: "))
 
-# age = age + 1
+# # age = age + 1
 
-# print(age)
+# # print(age)
 
 
-# 9. Floats = a number containing a decimal value
+# # 9. Floats = a number containing a decimal value
 
-# price = 99.99
-# temperature = 23.5
-# pi = 3.14159
+# # price = 99.99
+# # temperature = 23.5
+# # pi = 3.14159
 
-# price = 10.99
-# quantity = 4
+# # price = 10.99
+# # quantity = 4
 
-# total = price * quantity
+# # total = price * quantity
 
-# print(total)
+# # print(total)
 
-# you can convert values to floats
+# # you can convert values to floats
 
-# price = "99.99"
+# # price = "99.99"
 
-# price = float(price)
+# # price = float(price)
 
-# print(price)
+# # print(price)
 
 
-# 10. Regular Expressions = regex allow us to search for patterns inside text
+# # 10. Regular Expressions = regex allow us to search for patterns inside text
 
-import re
+# import re
 
-# 11. re.findall() = finds all occurrences matching a pattern
+# # 11. re.findall() = finds all occurrences matching a pattern
 
-# text = "I have 123 apples and 456 oranges"
+# # text = "I have 123 apples and 456 oranges"
 
-# numbers = re.findall(r"\d+", text)
+# # numbers = re.findall(r"\d+", text)
 
-# print(numbers)
+# # print(numbers)
 
-# \d = means a digit
-# + = means one or more
+# # \d = means a digit
+# # + = means one or more
 
 
-# 12. re.match() = checks whether a pattern appears at the beginning of the string
+# # 12. re.match() = checks whether a pattern appears at the beginning of the string
 
-# text = "Python is awesome"
+# # text = "Python is awesome"
 
-# result = re.match(r"Python", text)
+# # result = re.match(r"Python", text)
+
+# # print(result)
+
+# # text = "Python is awesome"
+
+# # result = re.match(r"AWS", text)
+
+# # print(result)
+
+
+# # 13. re.search() = looks through the string for the first occurence of a pattern
+
+# # text = "I love Python"
+
+# # result = re.search(r"Python", text)
+
+# # print(result)
+
+
+# # 14. re.sub() = allows you to replace text matching a pattern
+
+# # text = "My phone number is 123456789"
+
+# # result  = re.sub(r"\d", "X", text)
+
+# # print(result)
+
+# # email = "joseph@example.com"
+
+# # masked = re.sub(r"[^@]", "*", email)
+
+# # print(masked)
+
+
+# # 15. re.split() = splits a string using a regex pattern
+
+# text = "Python,Linux;AWS Docker"
+
+# result = re.split(r"[,; ]", text)
 
 # print(result)
-
-# text = "Python is awesome"
-
-# result = re.match(r"AWS", text)
-
-# print(result)
-
-
-# 13. re.search() = looks through the string for the first occurence of a pattern
-
-# text = "I love Python"
-
-# result = re.search(r"Python", text)
-
-# print(result)
-
-
-# 14. re.sub() = allows you to replace text matching a pattern
-
-# text = "My phone number is 123456789"
-
-# result  = re.sub(r"\d", "X", text)
-
-# print(result)
-
-# email = "joseph@example.com"
-
-# masked = re.sub(r"[^@]", "*", email)
-
-# print(masked)
-
-
-# 15. re.split() = splits a string using a regex pattern
-
-text = "Python,Linux;AWS Docker"
-
-result = re.split(r"[,; ]", text)
-
-print(result)
